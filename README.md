@@ -1,4 +1,12 @@
-# Vue Basic
+# function app
+
+```
+cd api
+func start
+```
+
+
+# Vue front end
 
 ## Project setup
 

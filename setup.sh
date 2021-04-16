@@ -27,6 +27,7 @@ az staticwebapp create \
     -g $resourcegroup \
     -s https://github.com/${ghaccount}/sig-windows-testgird-metrics \
     -l $location \
+    --api-location api \
     -b main \
     --app-artifact-location "dist" \
     --token ${ghtoken}
